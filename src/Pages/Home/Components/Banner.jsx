@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import hero from "../../../assets/landingg.webp";
+import hero from "../../../assets/landing.png";
 import FramerMagnetic from "./FramerMagnetic";
 
 /* eslint-disable react/no-unescaped-entities */
@@ -32,12 +32,12 @@ const Banner = () => {
 
   const handleDownloadResume = () => {
     const resumePdfUrl =
-     "https://www.dropbox.com/scl/fi/k3ihg2ualmku6z1sc7zgg/Rifat-s-resume-Without-Image-compressed.pdf?rlkey=kys7kky9gdxq9a4ihqao48igx&dl=1";
+     "https://drive.google.com/file/d/1P3YSprI4h5lg2rD_ZW_2tgyhMTS6iBEm/view?usp=drive_link";
 
     const downloadLink = document.createElement("a");
     downloadLink.href = resumePdfUrl;
 
-    downloadLink.download = "Rifats_Resume.pdf";
+    downloadLink.download = "Seyams_Resume.pdf";
 
     document.body.appendChild(downloadLink);
 
@@ -56,16 +56,15 @@ const Banner = () => {
   return (
     <div className="min-h-screen grid lg:grid-cols-2 max-w-screen-2xl mx-auto lg:px-2 cursor-crosshair p-2 lg:p-0">
       <div className="space-y-10 flex flex-col justify-center p-4 lg:p-0">
-        <h1 className="text-4xl text-[#A6ADBB] font-bold">Hi I'm</h1>
-
-        <h1 className="text-5xl lg:text-6xl font-bold text-[#3CD7A1] hover:text-violet-400 ease-in-out duration-1000">
-          Nasim Ahamed Rifat
-        </h1>
+        <h1 className="text-2xl text-[#A6ADBB] font-bold">Assalamualaikum Warahmatullahi Wabarakatuh </h1>
         <div className="text-[#A6ADBB] hover:text-orange-400 ease-in-out duration-1000 space-y-2">
           <h1 className="text-4xl lg:text-4xl font-semibold">
-            Frontend Developer
+          I am 
           </h1>
         </div>
+        <h1 className="text-5xl lg:text-6xl font-bold text-[#3CD7A1] hover:text-violet-400 ease-in-out duration-1000">
+        Seyam
+        </h1>
         <p className="text-[#A6ADBB] text-xl">
           I like to create solid and scalable digital front-end products. My
           main goal is to give you the best visual experiences. From UI design

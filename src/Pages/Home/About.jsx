@@ -6,7 +6,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiExpress, SiVite } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiDaisyui } from "react-icons/si";
-import hero from "../../assets/landing.webp";
+import hero from "../../assets/landing_1.png";
 import FramerMagnetic from "./Components/FramerMagnetic";
 
 const Tooltip = ({ text, children }) => {
