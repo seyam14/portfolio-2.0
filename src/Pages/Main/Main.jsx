@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const Main = () => {
   return (
-    <div className="bg-[#171717]">
+    <div className="bg-[#f1f5f9]">
       <div>
         <Outlet></Outlet>
       </div>

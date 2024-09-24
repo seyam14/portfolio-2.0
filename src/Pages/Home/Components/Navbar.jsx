@@ -4,7 +4,7 @@ const Navbar = () => {
   const navlink = (
     <>
       <li>
-        <NavLink to="https://www.linkedin.com/in/muhammad-seyam-782964201/" target="_blank" className='text-[#A6ADBB] font-medium hover:text-green-300 duration-500'>Linkedin</NavLink>
+        <NavLink to="https://www.linkedin.com/in/muhammad-seyam-782964201/" target="_blank" className='text-[#ccd6ea] font-medium hover:text-green-300 duration-500'>Linkedin</NavLink>
       </li>
       <li>
         <NavLink to="https://github.com/seyam14" target="_blank" className='text-[#A6ADBB] font-medium hover:text-green-300 duration-500'>GitHub</NavLink>
