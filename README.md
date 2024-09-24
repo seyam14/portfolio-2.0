@@ -1,12 +1,12 @@
-# Nasim Ahamed Rifat's Portfolio
+# Seyam's Portfolio
 
--Live link: https://rifats-portfolio.surge.sh/
+-Live link: 
 
 Welcome to my portfolio! This project showcases my journey as a Front-End Developer and my transition towards becoming a Full Stack Developer.
 
 ## Introduction
 
-Hi, I'm Nasim Ahamed Rifat, a passionate Front-End Developer currently expanding my skills to become a Full Stack Developer. This portfolio serves as a visual representation of my projects, skills, and achievements in the field of web development.
+Hi, I am Seyam, a passionate Front-End Developer currently expanding my skills to become a Full Stack Developer. This portfolio serves as a visual representation of my projects, skills, and achievements in the field of web development.
 
 ## Features
 
